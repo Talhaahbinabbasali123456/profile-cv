@@ -1,0 +1,36 @@
+//===========================================
+    // -Buttons start
+//===========================================
+
+.btn {
+  padding: 5px 40px;
+  background-color: #008000ad;
+  color: white;
+  font-size: rem(25);
+  border: none;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  border-radius: 5px;
+  &[disabled], &.disabled{
+    cursor: not-allowed;
+  }
+  &:hover {
+  	background-color: green;
+  }
+  @include mq('md', max) {
+  	position: absolute;
+  	padding: 5px 10px;
+  	font-size: rem(30);
+  	top: -25px;
+  	right: -65px;
+  	border-top-right-radius: 10px;
+  	border-top-left-radius: 10px;
+  	border-bottom-right-radius: 10px;
+  	border-bottom-left-radius: 0px;
+  }
+}
+//===========================================
+    // -Buttons end
+//===========================================

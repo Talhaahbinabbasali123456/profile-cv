@@ -1,0 +1,44 @@
+//===========================================
+// -Helper Classes start
+//===========================================
+.flex {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.text-center{
+	text-align: center;
+}
+.text-white {
+	color: white;
+	list-style-type: none;
+	font-size : rem(25);
+	padding: 20px;
+	@include mq('md', max) {
+		margin: 0;
+		padding: 10px;
+	}
+}
+.bg-trans {
+	background-color: #0a0b0ad9;
+	top: 0% !important;
+	left: 0% !important;
+	width: 100% !important;
+	height: 100% !important;
+	border-bottom: 10px solid #008000;
+	h3 {
+		display: inline-block;
+		border-bottom: 3px solid  #008000;
+	}
+	h5 {
+		border-bottom: 1px solid  transparent;
+		a {
+			font-weight: bold;
+			color: #008000;
+		}
+	}
+}
+//===========================================
+// -Helper Classes end
+//===========================================

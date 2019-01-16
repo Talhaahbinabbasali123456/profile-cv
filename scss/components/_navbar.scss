@@ -1,0 +1,70 @@
+//===========================================
+// -Navbar start
+//===========================================
+.nav-grand-parent {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 20px 5px 20px;
+	width: 100%;
+	background-color: black;
+	position: fixed;
+	z-index: 2;
+	flex-wrap: wrap;
+	top: 0;
+	.logo {
+		width: 100px;
+		color: white;
+		padding: 0;
+		min-width: 90px;
+		border:	15px solid green;
+		h1 {
+			margin: 0px;
+			padding: 0px;
+			position: relative;
+			right: -10px;
+			top: 10px;
+			font-size: rem(80);
+			span {
+				font-size: rem(30);
+			}
+		}
+	}
+	.nav-parent {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		flex-wrap: wrap;
+		@include mq('md', max) {
+			min-width: 200px;
+			overflow-x: scroll;
+		}
+		ul {
+			display: flex;
+			justify-content: flex-start;
+			align-items: center;
+			width:100%;
+			
+			li {
+				padding: 20px;
+				list-style-type: none;
+				color: white;
+				text-decoration: none;
+				font-weight: bold;
+				font-size: rem(18);
+				transition: 500ms;
+				border-bottom: 2px solid transparent;
+				&:hover {
+					color: green;
+					border-bottom: 2px solid green;
+				}
+				@include mq('md', max) {
+					width: 100px;
+				}
+			}
+		}
+	}
+}
+//===========================================
+// -Navbar end
+//===========================================

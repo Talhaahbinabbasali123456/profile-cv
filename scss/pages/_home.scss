@@ -1,0 +1,342 @@
+//===========================================
+// -Home Page start
+//===========================================
+
+.content-div {
+	margin-top: 160px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	flex-wrap: wrap;
+	padding : 50px;
+	width: 100%;
+	position: relative;
+	@include mq('md', max) {
+		justify-content: flex-start;
+		padding: 50px 5px;
+  	}
+
+	.description-area {
+		position: absolute;
+		left: 50px;
+		top: 80px;
+		width: 80%;
+		min-width: 250px;
+		padding: 0px;
+
+		@include mq('md', max) {
+			width: 100%;
+			position: static;
+			left: 0px;
+			top: 0px;
+  		}
+		.content-alignment {
+			margin: 40px 0px;
+			padding: 20px 200px 20px 0px;
+			@include mq('sm', max) {
+				margin: 0 auto;
+				padding: 85px 5px 5px 5px;
+  			}
+
+			.flexx {
+				ul {
+					li {
+						display: table;
+						strong {
+							min-width: 200px;
+							display: table-cell;
+							padding-right : 30px;
+							@include mq('sm', max) {
+								min-width: 50px;
+								padding-right: 10px;
+  								}
+							i {	
+								min-width: 50px;
+								text-align: center;
+								margin-right: 15px;
+								@include mq('sm', max) {
+									min-width: 20px;
+									margin-right: 5px;
+  								}
+							}
+							}
+						span {
+							display: table-cell;
+						}
+						}
+					}
+				}
+				
+				.skills-rating {
+					margin: 15px 0px;
+					padding: 0px;
+					color: white;
+					text-align: center;
+
+				.html-rate {
+					position: relative;
+					width: 40%;
+					background-color: green;
+					font-weight: bold;
+					padding: 5px 0px;
+					strong {
+							position: absolute;
+							right: -15px;
+							top: 0;
+							padding: 5px;
+							border-radius: 100%;
+							background-color: white;
+							color: black;
+						}
+				}	
+	
+				.css-rate {
+					position: relative;
+					width: 50%;
+					background-color: green;
+					font-weight: bold;
+					padding: 5px 0px;
+					strong {
+							position: absolute;
+							right: -15px;
+							top: 0;
+							padding: 5px;
+							border-radius: 100%;
+							background-color: white;
+							color: black;
+						}
+				}
+	
+				.javascript-rate {
+					position: relative;
+					width: 30%;
+					background-color: green;
+					font-weight: bold;
+					padding: 5px 0px;
+					strong {
+							position: absolute;
+							right: -15px;
+							top: 0;
+							padding: 5px;
+							border-radius: 100%;
+							background-color: white;
+							color: black;
+						}
+				}
+	
+				.php-rate {
+					position: relative;
+					width: 20%;
+					background-color: green;
+					font-weight: bold;
+					padding: 5px 0px;
+					strong {
+							position: absolute;
+							right: -15px;
+							top: 0;
+							padding: 5px;
+							border-radius: 100%;
+							background-color: white;
+							color: black;
+						}
+				}
+	
+				.wordpress-rate {
+					position: relative;
+					width: 35%;
+					background-color: green;
+					font-weight: bold;
+					padding: 5px 0px;
+					strong {
+							position: absolute;
+							right: -15px;
+							top: 0;
+							padding: 5px;
+							border-radius: 100%;
+							background-color: white;
+							color: black;
+						}
+				}
+	
+				.data-base-rate {
+					position: relative;
+					width: 15%;
+					background-color: green;
+					font-weight: bold;
+					padding: 5px 0px;
+					strong {
+							position: absolute;
+							right: -15px;
+							top: 0;
+							padding: 5px;
+							border-radius: 100%;
+							background-color: white;
+							color: black;
+						}
+				}
+	
+				.bootsrap-rate {
+					position: relative;
+					width: 60%;
+					background-color: green;
+					font-weight: bold;
+					padding: 5px 0px;
+					strong {
+							position: absolute;
+							right: -15px;
+							top: 0;
+							padding: 5px;
+							border-radius: 100%;
+							background-color: white;
+							color: black;
+						}
+				}
+				.scss-rate {
+					position: relative;
+					width: 45%;
+					background-color: green;
+					font-weight: bold;
+					padding: 5px 0px;
+					strong {
+							position: absolute;
+							right: -15px;
+							top: 0;
+							padding: 5px;
+							border-radius: 100%;
+							background-color: white;
+							color: black;
+						}
+					}
+				}
+			}
+		
+
+		h1 {
+			text-align: center;
+			color: white;
+			font-size: rem(40);
+			margin-right: 200px; 
+			border-bottom: 3px solid green;
+			@include mq('md', max) {
+				text-align: right;
+				padding: 0px 20px;
+				width:100%;
+
+			}
+		}
+	}
+	.img {
+	margin-right: 0px;
+	width: 25%;
+	min-width: 250px;
+	height: 650px;
+	border: 20px solid green;
+	background-image: url("../images/talha.jpg");
+	background-position: center;
+	background-size: cover;
+	transition: 2s;
+	@include mq('md', max) {
+			border: 10px solid green;
+    		height: 130px;
+			width: auto;
+			min-width: 130px;
+    		border-radius: 100%;
+    		position: absolute;
+    		left: 5px;
+    		top: 30px;
+  		}
+	.img-layout {
+		justify-content: center;
+		align-items: center;
+		display: none;
+		@include mq('md', max) {
+		   	border-radius: 100%;
+		}	
+	}
+	&:hover	.img-layout {
+		display: flex;
+		height: 100%;
+		background-image: linear-gradient(90deg, #00800094, #fcfcff2b);
+	}
+	}
+}
+
+#about {
+	display: none;
+}
+#experience {
+	display: none;
+}
+#skills {
+	display: none;
+}
+#project {
+	display: none;
+}
+#contact {
+	display: none;
+}
+
+.social-div {
+	position: fixed;
+	bottom: 25px;
+	right: 25px;
+	z-index: 10;
+	background-color: #00800085;
+	padding: 10px 15px;
+	border-radius: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	i {
+		font-size: rem(25);
+		color: #ffffffa1;
+	}
+}
+.social-content-div {
+	visibility: hidden;
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	z-index: 11;
+	background-color: #008000;
+	padding: 10px 15px;
+	border-top-left-radius: 100%;
+	height:650px;
+	width:700px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	@include mq('md', max)  {
+		height: 300px;
+		width:300px;
+	}
+	div {
+		padding: 8px 8px 8px 110px;
+		margin-top: 30px;
+		text-align: center;
+		i {
+			font-size:rem(35);
+			display: block;
+			padding: 5px;
+		}
+		@include mq('md', max)  {
+			margin-top: 100px;
+			padding-left: 25px;
+			i {
+				font-size: rem(25);
+			}
+		}
+	}
+	.close-icon {
+		position: absolute;
+		bottom:25px;
+		right: 25px;
+		font-size: rem(50);
+
+	}
+}
+
+//===========================================
+// -Home Page end
+//===========================================
