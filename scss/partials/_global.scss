@@ -1,5 +1,5 @@
 //=======================================================
-	// -Global style start
+// -Global style start
 //=======================================================
 
 
@@ -8,10 +8,10 @@ body {
   font-family: 'Amiri', serif;
   font-size: 8px;
   scroll-behavior: smooth;
-  background-image: url("../images/img.jpg");
+  background-image: url("../images/building.jpg");
   background-size: cover;
   background-attachment: fixed;
-
+  background-repeat: no-repeat;
   @include mq('sm', min) {
     font-size: 10px;
   }
@@ -43,14 +43,12 @@ html {
   }
 }
 .main-body-layout {
-  height: 100%;
   width: 100%;
-  background-color: #000000d1;
 }
 .container  {
   display: block;
   padding: 20px;
 }
 //=======================================================
-	// -Global style  end
+// -Global style  end
 //=======================================================

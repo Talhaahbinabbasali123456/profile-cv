@@ -1,33 +1,3 @@
-function initialize() {
-// window.onscroll = function () {scrollFunction()}
-
-// function scrollFunction(){
-//   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50){
-//     document.querySelector('.bio').style.visibility = 'hidden';
-//     document.querySelector('.bio').style.top = '0';
-//     document.querySelector('.check').classList.remove("fadeInLeft");
-//     document.querySelector('.check').classList.remove("delay-1s");
-//     document.querySelector('.check').classList.remove("zoomIn");
-//     document.querySelector('.image').style.position = 'fixed';
-//     document.querySelector('.image').style.top = '20px';
-//     document.querySelector('.image').style.left = '20px';
-//     document.querySelector('.image').style.width = '180px';
-//     document.querySelector('.image').style.height = '180px';
-//     document.querySelector('.hire-me').style.padding = '15px';
-//     document.querySelector('.hire-me').style.left = '-50px';
-//   } else {
-//     document.querySelector('.bio').style.visibility = 'visible';
-//     document.querySelector('.check').classList.add("faster");
-//     document.querySelector('.check').classList.add("zoomIn");
-//     document.querySelector('.image').style.width = '500px';
-//     document.querySelector('.image').style.height = '500px';
-//     document.querySelector('.image').style.position = 'relative';
-//     document.querySelector('.hire-me').style.padding = '50px';
-//     document.querySelector('.hire-me').style.left = '-150px';
-//   }
-// }
-}
-
 function openCity(evt, cityName) {
   // Declare all variables
   var i, tabcontent, tablinks;
@@ -50,17 +20,20 @@ function openCity(evt, cityName) {
   evt.currentTarget.className += " active";
 }
 
-
-
-
-
+// 
+// 
+// 
+// 
 
   document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.slider');
     var instances = M.Slider.init(elems);
   });
-
-
+// 
+// 
+// 
+// 
+// 
 
 function openTap() {
   document.querySelector(".social-content-div").style.visibility = "visible";
@@ -70,3 +43,7 @@ function closeTap() {
   document.querySelector(".social-content-div").style.visibility = "hidden";
   document.querySelector(".social-content-div").classList.remove("pulse");
 }
+// 
+// 
+// 
+// 

@@ -3,19 +3,21 @@
 //===========================================
 
 .content-div {
-	margin-top: 160px;
+	margin-top: 115px;
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
 	flex-wrap: wrap;
-	padding : 50px;
+	padding : 160px 50px 50px 50px;
+	background-color: #000000d1;
 	width: 100%;
 	position: relative;
 	@include mq('md', max) {
+		margin-top: 120px;
 		justify-content: flex-start;
-		padding: 50px 5px;
-  	}
-
+		padding: 135px 5px 50px 5px;
+	}
+	
 	.description-area {
 		position: absolute;
 		left: 50px;
@@ -23,21 +25,21 @@
 		width: 80%;
 		min-width: 250px;
 		padding: 0px;
-
+		
 		@include mq('md', max) {
 			width: 100%;
 			position: static;
 			left: 0px;
 			top: 0px;
-  		}
+		}
 		.content-alignment {
 			margin: 40px 0px;
 			padding: 20px 200px 20px 0px;
 			@include mq('sm', max) {
 				margin: 0 auto;
 				padding: 85px 5px 5px 5px;
-  			}
-
+			}
+			
 			.flexx {
 				ul {
 					li {
@@ -49,7 +51,7 @@
 							@include mq('sm', max) {
 								min-width: 50px;
 								padding-right: 10px;
-  								}
+							}
 							i {	
 								min-width: 50px;
 								text-align: center;
@@ -57,22 +59,22 @@
 								@include mq('sm', max) {
 									min-width: 20px;
 									margin-right: 5px;
-  								}
+								}
 							}
-							}
+						}
 						span {
 							display: table-cell;
 						}
-						}
 					}
 				}
+			}
+			
+			.skills-rating {
+				margin: 15px 0px;
+				padding: 0px;
+				color: white;
+				text-align: center;
 				
-				.skills-rating {
-					margin: 15px 0px;
-					padding: 0px;
-					color: white;
-					text-align: center;
-
 				.html-rate {
 					position: relative;
 					width: 40%;
@@ -80,16 +82,16 @@
 					font-weight: bold;
 					padding: 5px 0px;
 					strong {
-							position: absolute;
-							right: -15px;
-							top: 0;
-							padding: 5px;
-							border-radius: 100%;
-							background-color: white;
-							color: black;
-						}
+						position: absolute;
+						right: -15px;
+						top: 0;
+						padding: 5px;
+						border-radius: 100%;
+						background-color: white;
+						color: black;
+					}
 				}	
-	
+				
 				.css-rate {
 					position: relative;
 					width: 50%;
@@ -97,16 +99,16 @@
 					font-weight: bold;
 					padding: 5px 0px;
 					strong {
-							position: absolute;
-							right: -15px;
-							top: 0;
-							padding: 5px;
-							border-radius: 100%;
-							background-color: white;
-							color: black;
-						}
+						position: absolute;
+						right: -15px;
+						top: 0;
+						padding: 5px;
+						border-radius: 100%;
+						background-color: white;
+						color: black;
+					}
 				}
-	
+				
 				.javascript-rate {
 					position: relative;
 					width: 30%;
@@ -114,16 +116,16 @@
 					font-weight: bold;
 					padding: 5px 0px;
 					strong {
-							position: absolute;
-							right: -15px;
-							top: 0;
-							padding: 5px;
-							border-radius: 100%;
-							background-color: white;
-							color: black;
-						}
+						position: absolute;
+						right: -15px;
+						top: 0;
+						padding: 5px;
+						border-radius: 100%;
+						background-color: white;
+						color: black;
+					}
 				}
-	
+				
 				.php-rate {
 					position: relative;
 					width: 20%;
@@ -131,16 +133,16 @@
 					font-weight: bold;
 					padding: 5px 0px;
 					strong {
-							position: absolute;
-							right: -15px;
-							top: 0;
-							padding: 5px;
-							border-radius: 100%;
-							background-color: white;
-							color: black;
-						}
+						position: absolute;
+						right: -15px;
+						top: 0;
+						padding: 5px;
+						border-radius: 100%;
+						background-color: white;
+						color: black;
+					}
 				}
-	
+				
 				.wordpress-rate {
 					position: relative;
 					width: 35%;
@@ -148,16 +150,16 @@
 					font-weight: bold;
 					padding: 5px 0px;
 					strong {
-							position: absolute;
-							right: -15px;
-							top: 0;
-							padding: 5px;
-							border-radius: 100%;
-							background-color: white;
-							color: black;
-						}
+						position: absolute;
+						right: -15px;
+						top: 0;
+						padding: 5px;
+						border-radius: 100%;
+						background-color: white;
+						color: black;
+					}
 				}
-	
+				
 				.data-base-rate {
 					position: relative;
 					width: 15%;
@@ -165,16 +167,31 @@
 					font-weight: bold;
 					padding: 5px 0px;
 					strong {
-							position: absolute;
-							right: -15px;
-							top: 0;
-							padding: 5px;
-							border-radius: 100%;
-							background-color: white;
-							color: black;
-						}
+						position: absolute;
+						right: -15px;
+						top: 0;
+						padding: 5px;
+						border-radius: 100%;
+						background-color: white;
+						color: black;
+					}
 				}
-	
+				.photoshop-rate {
+					position: relative;
+					width: 35%;
+					background-color: green;
+					font-weight: bold;
+					padding: 5px 0px;
+					strong {
+						position: absolute;
+						right: -15px;
+						top: 0;
+						padding: 5px;
+						border-radius: 100%;
+						background-color: white;
+						color: black;
+					}
+				}
 				.bootsrap-rate {
 					position: relative;
 					width: 60%;
@@ -182,14 +199,14 @@
 					font-weight: bold;
 					padding: 5px 0px;
 					strong {
-							position: absolute;
-							right: -15px;
-							top: 0;
-							padding: 5px;
-							border-radius: 100%;
-							background-color: white;
-							color: black;
-						}
+						position: absolute;
+						right: -15px;
+						top: 0;
+						padding: 5px;
+						border-radius: 100%;
+						background-color: white;
+						color: black;
+					}
 				}
 				.scss-rate {
 					position: relative;
@@ -198,19 +215,19 @@
 					font-weight: bold;
 					padding: 5px 0px;
 					strong {
-							position: absolute;
-							right: -15px;
-							top: 0;
-							padding: 5px;
-							border-radius: 100%;
-							background-color: white;
-							color: black;
-						}
+						position: absolute;
+						right: -15px;
+						top: 0;
+						padding: 5px;
+						border-radius: 100%;
+						background-color: white;
+						color: black;
 					}
 				}
 			}
+		}
 		
-
+		
 		h1 {
 			text-align: center;
 			color: white;
@@ -221,43 +238,43 @@
 				text-align: right;
 				padding: 0px 20px;
 				width:100%;
-
+				
 			}
 		}
 	}
 	.img {
-	margin-right: 0px;
-	width: 25%;
-	min-width: 250px;
-	height: 650px;
-	border: 20px solid green;
-	background-image: url("../images/talha.jpg");
-	background-position: center;
-	background-size: cover;
-	transition: 2s;
-	@include mq('md', max) {
+		margin-right: 0px;
+		width: 25%;
+		min-width: 250px;
+		height: 500px;
+		border: 20px solid green;
+		background-image: url("../images/talha1.jpg");
+		background-position: center;
+		background-size: cover;
+		transition: 2s;
+		@include mq('md', max) {
 			border: 10px solid green;
-    		height: 130px;
+			height: 130px;
 			width: auto;
 			min-width: 130px;
-    		border-radius: 100%;
-    		position: absolute;
-    		left: 5px;
-    		top: 30px;
-  		}
-	.img-layout {
-		justify-content: center;
-		align-items: center;
-		display: none;
-		@include mq('md', max) {
-		   	border-radius: 100%;
-		}	
-	}
-	&:hover	.img-layout {
-		display: flex;
-		height: 100%;
-		background-image: linear-gradient(90deg, #00800094, #fcfcff2b);
-	}
+			border-radius: 100%;
+			position: absolute;
+			left: 5px;
+			top: 110px;
+		}
+		.img-layout {
+			justify-content: center;
+			align-items: center;
+			display: none;
+			@include mq('md', max) {
+				border-radius: 100%;
+			}	
+		}
+		&:hover	.img-layout {
+			display: flex;
+			height: 100%;
+			background-image: linear-gradient(90deg, #00800094, #fcfcff2b);
+		}
 	}
 }
 
@@ -311,20 +328,27 @@
 		height: 300px;
 		width:300px;
 	}
-	div {
+	ul {
 		padding: 8px 8px 8px 110px;
 		margin-top: 30px;
-		text-align: center;
-		i {
-			font-size:rem(35);
-			display: block;
-			padding: 5px;
+		text-align: right;
+		li {
+			display: flex;
+			justify-content: flex-end;
+			align-items: center;
+			font-size: rem(35);
+			i {
+				margin-left: 35px;
+			}
 		}
 		@include mq('md', max)  {
 			margin-top: 100px;
 			padding-left: 25px;
-			i {
+			li {
 				font-size: rem(25);
+				i {
+					margin-left: 10px;
+				}
 			}
 		}
 	}
@@ -333,8 +357,38 @@
 		bottom:25px;
 		right: 25px;
 		font-size: rem(50);
-
+		
 	}
+}
+.style {	
+	height: 50%;
+	width: 75%;
+	background-size: 100%;
+	background-position: center;
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	
+}
+.project-img-div-bicycle {
+	background-image: url("../images/bicycle.png");
+}
+.project-img-div-g-media {
+	background-image: url("../images/global-media.PNG");
+}
+.project-img-div-h-leading {
+	background-image: url("../images/houseleading.PNG");
+}
+.project-img-div-group {
+	background-image: url("../images/group.PNG");
+}
+.project-img-div-weather {
+	background-image: url("../images/weather.PNG");
+}
+.project-img-div-cricket {
+	background-image: url("../images//cricket.PNG");
+}
+.project-img-div-news {
+	background-image: url("../images/news.PNG");
 }
 
 //===========================================
